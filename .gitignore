@@ -1,0 +1,126 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build / packaging
+build/
+dist/
+site/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -----------------------------
+# OS / editor junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# -----------------------------
+# Secrets / local config
+# -----------------------------
+.env
+.env.*
+*.pem
+*.key
+*.secret
+secrets.json
+
+# Keep this only if you want local interpreter pinning private.
+# If you want the Python version pinned for contributors, remove this line.
+.python-version
+
+# -----------------------------
+# Repo-local scratch / private workflow
+# -----------------------------
+CLAUDE.md
+.claude/
+dev-ignore/
+
+# -----------------------------
+# Logs / reports
+# -----------------------------
+*.log
+logs/
+report.md
+
+# -----------------------------
+# Experiment tracking
+# -----------------------------
+wandb/
+
+# -----------------------------
+# Evaluation / downloaded bundles
+# -----------------------------
+eval_bundle/
+*.zip.tmp
+
+# -----------------------------
+# Model checkpoints / artifacts
+# -----------------------------
+base_checkpoints/
+chatsft_checkpoints/
+chatrl_checkpoints/
+checkpoints/
+outputs/
+artifacts/
+
+# Common model / tensor files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# Optimizer / training state dumps
+*.npz
+*.npy
+
+# -----------------------------
+# Temporary data / caches
+# -----------------------------
+tmp/
+temp/
+.cache/
+cache/
+
+# -----------------------------
+# Optional local docs / exports
+# -----------------------------
+*.pdf
